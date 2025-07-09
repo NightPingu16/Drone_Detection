@@ -18,21 +18,21 @@ The following software tools and libraries were utilized for dataset preparation
 
 The primary programming language for all scripts and model training.
 
-1. **Ultralytics YOLO (YOLOv5 and YOLOv11)**
+2. **Ultralytics YOLO (YOLOv5 and YOLOv11)**
 
 The official Ultralytics YOLO package was used for both YOLOv5 and YOLOv11 model training, validation, and inference. This package provides a unified interface for state-of-the-art object detection workflows.
 
-1. **Google Colab**
+3. **Google Colab**
 
 All experiments were conducted on Google Colab, leveraging its free GPU resources for faster training and testing.
 
-1. **Supporting Libraries:**
+4. **Supporting Libraries:**
 
-1. NumPy and Pandas for data manipulation and analysis.
-1. OpenCV for image processing and visualization.
-1. Matplotlib for plotting training curves and evaluation metrics.
+     1. NumPy and Pandas for data manipulation and analysis.
+     2. OpenCV for image processing and visualization.
+     3. Matplotlib for plotting training curves and evaluation metrics.
 
-1. **Annotation Tools:**
+5. **Annotation Tools:**
 
 Roboflow and LabelImg were used for creating and verifying bounding box annotations, ensuring high-quality labels for each image.
 
@@ -151,7 +151,7 @@ Overall, the decreasing losses and increasing metrics suggest the model is learn
 
 All detailed training logs, per-epoch metrics, and additional result tables are included in the Appendix at the end of this and also the in the result folder(yolov5/results).
 
-1. **Yolov11**
+2. **Yolov11**
 
 YOLOv11 represents the next evolutionary step in the YOLO family, also developed by Ultralytics. It introduces several architectural innovations, most notably an anchor-free detection head, which improves accuracy and reduces the need for manual anchor tuning. YOLOv11 achieves state-of-the-art results by offering higher mean average precision (mAP) across all model sizes compared to YOLOv5, while also being more computationally efficient.
 
@@ -238,62 +238,9 @@ Both YOLOv5 and YOLOv11 are effective for UAV detection in images. However, YOLO
 **REFERENCES:**
 
 1. <https://docs.ultralytics.com/yolov5/>
-1. Ultralytics Yolov11 Github
-1. Custom Dataset From Kaggle.com <https://www.kaggle.com/datasets/muki2003/yolo-drone-detection-dataset/>
-1. Training logs and results (see appendix)
+2. Ultralytics Yolov11 Github
+3. Custom Dataset From Kaggle.com <https://www.kaggle.com/datasets/muki2003/yolo-drone-detection-dataset/>
+4. All training and evaluation results for both YOLOv5 and YOLOv11 are included in this repo. You will find comprehensive plots for precision (P), recall (R), and F1 score, as well as all training and validation loss curves and logs. These visualizations and logs allow for a clear comparison of model performance and training dynamics. Additionally, sample predicted images are provided to showcase how each model peforms on real drone data
 
-**APPENDIX**  
+**RESULTS**  
 
-1. **Tables**
-1. **Yolov5**
-
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.007.png)
-
-This above image represents the training results for the YOLOv5 model.
-
-1. **Yolov11**
-
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.008.png)
-
-
-
-
-
-
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.009.png)
-
-This above image represents the training results for the YOLOv11 model.
-
-1. Detected Images
-1. ![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.010.jpeg "train_batch0")Yolov5
-
-
-
-
-
-
-
-
-
-
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.011.jpeg "val_batch0_labels")
-
-1. ![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.012.jpeg "val_batch1_pred")Yolov11
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. Process For Detection ( in both cases Yolov5 and Yolov11)
-
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.013.jpeg "Capture")
