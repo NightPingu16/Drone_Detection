@@ -114,7 +114,7 @@ After training, YOLOv5 achieved the following performance on the validation set:
 
 |Precision:|Recall:|mAP@0.5:|mAP@0.5:0.95:|
 | :- | :- | :- | :- |
-|0\.89|0\.85|0\.90|0\.50|
+|0\.89|0\.85|0\.90|0\.50|</br>
 
 <img width="2400" height="1200" alt="Image" src="https://github.com/user-attachments/assets/c5e5f86a-2374-449f-8334-088a6297c45a" />
 
@@ -171,6 +171,7 @@ For the second phase of this project, We implemented the YOLOv11 model to train 
 **Batch Size:** The batch size was set to [16], balancing computational efficiency and GPU memory usage.
 
 **Image Size:** An image size of [640x640] pixels was used, consistent with the YOLOv5 experiments.
+
 <img width="610" height="79" alt="Image" src="https://github.com/user-attachments/assets/d6980ba6-5235-4abd-be97-02525a061a9f" />
 
 
@@ -178,9 +179,10 @@ The training was conducted using the official Ultralytics YOLOv11 framework, whi
 
 After training, YOLOv11 achieved the following performance on the validation set:
 
-<img width="555" height="84" alt="Image" src="https://github.com/user-attachments/assets/b57383ee-306b-4e9d-983f-b70a9c7cffe3" />
+<img width="555" height="84" alt="Image" src="https://github.com/user-attachments/assets/b57383ee-306b-4e9d-983f-b70a9c7cffe3" /><br/>
 
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.006.png "resultsv11")
+
+<img width="2400" height="1200" alt="Image" src="https://github.com/user-attachments/assets/3a9fd786-b9f2-4324-89b8-79a7661f54e7" />
 
 
 
