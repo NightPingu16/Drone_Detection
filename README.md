@@ -1,8 +1,4 @@
-﻿**-- Drone Visual Detection using**
-
-` `**Deep Learning**
-
-**Models --** 
+<h1>﻿Drone Visual Detection using Deep Learning Models</h1>
 
 **INTRODUCTION:**
 
@@ -46,22 +42,21 @@ This software setup is consistent with current standards in computer vision rese
 
 For this project, a custom UAV (drone) image dataset was used to train and evaluate deep learning models. The dataset consists of 1,012 images, each annotated with the location of drones using the standard YOLO format. Each annotation file contains the class label and normalized coordinates for the bounding box surrounding the detected drone.
 
-
 **Structure:** 
 
-`   `**Dataset/**
+   **Dataset/**
 
-`               `**Train/**
+              Train/
 
-`                      `**Images/**
+                    Images/
 
-`                      `**Labels/**
+                    Labels/
 
-`              `**Valid/**
+              Valid/
 
-`                     `**Images/**
+                    Images/
 
-`                     `**Labels/**
+                    Labels/
 
 - **train/images and valid/images**: Contain the training and validation images, respectively.
 - **train/labels and valid/labels**: Contain the corresponding annotation files for each image.
