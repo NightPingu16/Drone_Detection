@@ -3,7 +3,7 @@
 ## Overview
 
 This repository demonstrates drone (UAV) detection using **YOLOv5**, a widely-used real-time object detection model from Ultralytics.  
-YOLOv5 is known for its speed, accuracy, and ease of use, making it ideal for UAV/drone detection tasks in computer vision[2][3].  
+YOLOv5 is known for its speed, accuracy, and ease of use, making it ideal for UAV/drone detection tasks in computer vision.  
 All results, trained models (`best.pt` and others), and sample predicted images are included for reference.
 
 ---
