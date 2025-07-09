@@ -116,8 +116,7 @@ After training, YOLOv5 achieved the following performance on the validation set:
 | :- | :- | :- | :- |
 |0\.89|0\.85|0\.90|0\.50|
 
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.003.png "results")
-
+<img width="2400" height="1200" alt="Image" src="https://github.com/user-attachments/assets/c5e5f86a-2374-449f-8334-088a6297c45a" />
 
 
 
@@ -171,14 +170,15 @@ For the second phase of this project, We implemented the YOLOv11 model to train 
 
 **Batch Size:** The batch size was set to [16], balancing computational efficiency and GPU memory usage.
 
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.004.jpeg "2")**Image Size:** An image size of [640x640] pixels was used, consistent with the YOLOv5 experiments.
+**Image Size:** An image size of [640x640] pixels was used, consistent with the YOLOv5 experiments.
+<img width="610" height="79" alt="Image" src="https://github.com/user-attachments/assets/d6980ba6-5235-4abd-be97-02525a061a9f" />
 
 
 The training was conducted using the official Ultralytics YOLOv11 framework, which features an anchor-free detection head and enhanced feature extraction modules. We initialized the model with pretrained weights (yolov11s.pt) to accelerate convergence and boost accuracy, especially with a moderate-sized dataset.
 
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.005.jpeg "aaa")After training, YOLOv11 achieved the following performance on the validation set:
+After training, YOLOv11 achieved the following performance on the validation set:
 
-
+<img width="555" height="84" alt="Image" src="https://github.com/user-attachments/assets/b57383ee-306b-4e9d-983f-b70a9c7cffe3" />
 
 ![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.006.png "resultsv11")
 
