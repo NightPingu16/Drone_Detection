@@ -75,7 +75,7 @@ The dataset includes a data.yaml file that specifies the paths to the training a
 
 Data.yaml Includes:
 
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.001.jpeg "data")
+![Image](https://github.com/user-attachments/assets/72b5cfdf-2120-433f-b007-5ee970ee450c)
 
 
 
@@ -102,8 +102,9 @@ For the first phase of this project, we used the YOLOv5 model to train and evalu
 
 **Batch Size:** The batch size was set to [16], controlling how many images are processed at once during each training step. Choosing the largest batch size that fits in GPU memory is recommended for efficiency.
 
-![](Aspose.Words.d2f26218-75a4-444f-95dc-dceb10323f25.002.jpeg "1")**Image Size:** We used an image size of [640x640] pixels, as higher image resolutions can improve detection accuracy but require more computational resources.
+**Image Size:** We used an image size of [640x640] pixels, as higher image resolutions can improve detection accuracy but require more computational resources.
 
+![Image](https://github.com/user-attachments/assets/311e91e8-09ca-41b7-83b7-ba5af36212e0)
 
 The training was conducted using the Ultralytics YOLOv5 framework, which provides a user-friendly interface for custom object detection tasks. We initialized the model with pretrained weights (yolov5s.pt), which helps accelerate convergence and improve results, especially when working with smaller datasets.
 
@@ -111,7 +112,7 @@ During training, all outputs including model weights, logs, and visualizations w
 
 After training, YOLOv5 achieved the following performance on the validation set:
 
-|`      `Precision:|`         `Recall|`      `mAP@0.5|` `mAP@0.5:0.95|
+|Precision:|Recall:|mAP@0.5:|mAP@0.5:0.95:|
 | :- | :- | :- | :- |
 |0\.89|0\.85|0\.90|0\.50|
 
