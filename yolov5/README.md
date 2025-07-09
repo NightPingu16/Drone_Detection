@@ -73,7 +73,7 @@ plot_results(save_dir='runs/train/exp')
 
 ## Results and Included Files
 
-- **All results and evaluation metrics** are included in the `test results/` folder and all necessary requirements are listed in `requirements.txt` file.
+- **All results and evaluation metrics** are included in the `test results/` folder and all necessary requirements are listed in `requirements.txt`.
 - **Trained model weights** (`best.pt` and others) are provided for download provided in the `weights/` folder.
 - **Sample predicted video** are included for reference, so you can see how the model performs on real drone video tracking provided in the `predict/` folder.
 
