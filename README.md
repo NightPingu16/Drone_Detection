@@ -240,7 +240,8 @@ Both YOLOv5 and YOLOv11 are effective for UAV detection in images. However, YOLO
 1. <https://docs.ultralytics.com/yolov5/>
 2. Ultralytics Yolov11 Github
 3. Custom Dataset From Kaggle.com <https://www.kaggle.com/datasets/muki2003/yolo-drone-detection-dataset/>
-4. All training and evaluation results for both YOLOv5 and YOLOv11 are included in this repo. You will find comprehensive plots for precision (P), recall (R), and F1 score, as well as all training and validation loss curves and logs. These visualizations and logs allow for a clear comparison of model performance and training dynamics. Additionally, sample predicted images are provided to showcase how each model peforms on real drone data
+4. All training and evaluation results for both YOLOv5 and YOLOv11 are included in this repo. You will find comprehensive plots for precision (P), recall (R), and F1 score, as well as all training and validation loss curves and logs. These visualizations and logs allow for a clear comparison of model performance and training dynamics. Additionally, sample predicted images are provided to showcase how each model peforms on real drone data.
 
-**RESULTS**  
+**INSTALLING PROCESS**  
 
+<img width="709" height="506" alt="Image" src="https://github.com/user-attachments/assets/27a4b516-f24e-4cc9-992d-5367d4117b53" />
