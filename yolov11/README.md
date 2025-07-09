@@ -72,8 +72,8 @@ model.predict(source='PathtoImage', save=True)
 ## Results and Included Files
 
 - **All results and evaluation metrics** are included in the `results/` folder.
-- **Trained model weights** (`best.pt` and others) are provided for download in the 'weights/' folder.
-- **Sample predicted images** are included for reference, so you can see how the model performs on real drone images in 'predict/' folder.
+- **Trained model weights** (`best.pt` and others) are provided for download in the `weights/` folder.
+- **Sample predicted images** are included for reference, so you can see how the model performs on real drone images in `predict/` folder.
 
 ---
 
