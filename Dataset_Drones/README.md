@@ -1,5 +1,7 @@
 <h1>Structure:</h1>
 
+First Download Whole Drone Dataset From - ""https://www.kaggle.com/datasets/muki2003/yolo-drone-detection-dataset/""
+
    **Dataset/**
 
               Train/
@@ -16,6 +18,7 @@
 
 - **train/images and valid/images**: Contain the training and validation images, respectively.
 - **train/labels and valid/labels**: Contain the corresponding annotation files for each image.
+- The Dataset Should be in this Format so it could easily be accessed for Training through data.yaml
 
 **Annotation Format :**\
 Each label file contains one or more lines, each in the format:\
